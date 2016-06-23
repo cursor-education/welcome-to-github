@@ -1,0 +1,652 @@
+			2.Using Chrome Developers Toolkit, and "Network" tag
+		1. http://www.cyberforum.ru/
+	*request
+GET / HTTP/1.1(запит протоколу)
+Host: www.cyberforum.ru (ім'я домену)
+Connection: keep-alive  (стан підключення)
+Cache-Control: max-age=0(керування кешуванням в браузері: час на який буде закешований результат)
+Upgrade-Insecure-Requests: 1 (можливість автоматичного переводу «http» в "https")
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36 (набір ідентифікаторів, за якими відбувається визначення - який браузер, яка операційна система і тд, для коректного відображення сторінки)
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8 (запит обмежений переліченими ідентифікаторами)
+Referer: http://www.alexa.com/siteinfo/cyberforum.ru (звідки був здійснений перехід на сторінку)
+Accept-Encoding: gzip, deflate, sdch (перелік дозволених способів кодування)
+Accept-Language: en-US,en;q=0.8,uk;q=0.6,ru;q=0.4 (перелік підтримуваний мов)
+	*response
+HTTP/1.1 200 OK (код стану протоколу)
+Server: nginx/1.4.3 (назва та версія сервера)
+Date: Wed, 22 Jun 2016 16:19:42 GMT (дата генерації сайту)
+Content-Type: text/html; charset=windows-1251 (тип контенту)
+Transfer-Encoding: chunked (повідомлення передається за допомогою певного кодування)
+Connection: keep-alive (стан підключення)
+Keep-Alive: timeout=15 (постійне http-з'єднання)
+X-Powered-By: PHP/5.5.15 (протокол передачі гіпертексту)
+Cache-Control: private (керування кешуванням в браузері: можна кешувати, навіть якщо з ним пов'язана HTTP-аутентифікація і код статусу відповіді зазвичай не можна зберігати.)
+Pragma: private (особливі опції виконання операції)
+X-UA-Compatible: IE=7 (режим відображеня сторінок в браузері)
+Content-Encoding: gzip (тип кодування даних)
+		
+		2. http://prnt.sc/
+	*request
+GET / HTTP/1.1 (запит протоколу)
+Host: prnt.sc (ім'я домену)
+Connection: keep-alive (стан підключення)
+Cache-Control: max-age=0 (керування кешуванням в браузері: час на який буде закешований результат)
+Upgrade-Insecure-Requests: 1 (можливість автоматичного переводу «http» в "https")
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36(набір ідентифікаторів, за якими відбувається визначення - який браузер, яка операційна система і тд, для коректного відображення сторінки)
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8 (запит обмежений переліченими ідентифікаторами)
+Referer: http://www.alexa.com/siteinfo/prntscr.com (звідки був здійснений перехід на сторінку)
+Accept-Encoding: gzip, deflate, sdch (перелік дозволених способів кодування)
+Accept-Language: en-US,en;q=0.8,uk;q=0.6,ru;q=0.4 (перелік підтримуваний мов)
+	*response
+HTTP/1.1 200 OK (код стану протоколу)
+Date: Wed, 22 Jun 2016 18:38:34 GMT (дата генерації сайту)
+Content-Type: text/html (тип контенту)
+Transfer-Encoding: chunked (повідомлення передається за допомогою певного кодування)
+Connection: keep-alive (стан підключення)
+X-Powered-By: PHP/5.5.9-1ubuntu4.17 (протокол передачі гіпертекста)
+Content-Security-Policy: referrer no-referrer (політика захисту контенту)
+Server: cloudflare-nginx (назва та версія сервера)
+CF-RAY: 2b71d16749af4f20-DME (додається, щоб допомогти з відстеженням запиту на веб-сайт через мережу CloudFlare)
+Content-Encoding: gzip (тип кодування даних)
+		3.http://stackoverflow.com/
+	*request
+GET / HTTP/1.1 (запит протоколу)
+Host: stackoverflow.com (ім'я домену)
+Connection: keep-alive (стан підключення)
+Cache-Control: max-age=0 (керування кешуванням в браузері: час на який буде закешований результат)
+Upgrade-Insecure-Requests: 1 (можливість автоматичного переводу «http» в "https")
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36 (набір ідентифікаторів, за якими відбувається визначення - який браузер, яка операційна система і тд, для коректного відображення сторінки)
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8 (запит обмежений переліченими ідентифікаторами)
+Referer: http://www.alexa.com/siteinfo/stackoverflow.com (звідки був здійснений перехід на сторінку)
+Accept-Encoding: gzip, deflate, sdch (перелік дозволених способів кодування)
+Accept-Language: en-US,en;q=0.8,uk;q=0.6,ru;q=0.4 (перелік підтримуваний мов)
+	*response
+HTTP/1.1 200 OK (код стану протоколу)
+Cache-Control: public, max-age=60 (керування кешуванням в браузері)
+Content-Type: text/html; charset=utf-8 (тип контенту)
+Content-Encoding: gzip (перелік дозволених способів кодування)
+Expires: Wed, 22 Jun 2016 19:00:55 GMT (повідомляє всім кешам, як довго контент трактується як свіжий)
+Last-Modified: Wed, 22 Jun 2016 18:59:55 GMT (час останньої зміни сторінки)
+X-Frame-Options: SAMEORIGIN (дозволяє повністю або частково обмежити завантаження ресурсу в iframe)
+X-Request-Guid: fac074ea-19ac-471b-bc7c-5a99a4688dc0(однозначна ідентифікація запиту)
+Content-Length: 41121 (довжина контенту)
+Accept-Ranges: bytes (одиниця розміру контенту)
+Date: Wed, 22 Jun 2016 18:59:55 GMT (дата генерації сайту)
+Via: 1.1 varnish (список версій протоколу, назв і версій проксі-серверів, через яких пройшло повідомлення)
+Connection: keep-alive (стан підключення)
+X-Served-By: cache-fra1223-FRA (найближчий вузол доставки кеша)
+X-Cache: MISS (показує, чи є об'єкт доступним чи ні)
+X-Cache-Hits: (коли проксі сервер має локальну копію вебсайта або запитувальних сторінок)
+X-Timer: S1466621995.083019,VS0,VE223(таймер від початку до кінця запиту)
+Vary: *(заголовоу для пошукової оптимізації та зменшення часу завантаження сторінки)
+X-DNS-Prefetch-Control: off (повідомляєте браузеру, за якими адресами можуть перебувати ресурси сторінки)
+		4. http://ok.ru/
+	*request
+GET / HTTP/1.1 (запит протоколу)
+Host: ok.ru (ім'я домену)
+Connection: keep-alive (стан підключення)
+Cache-Control: max-age=0 (керування кешуванням в браузері)
+Upgrade-Insecure-Requests: 1 (можливість автоматичного переводу «http» в "https")
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36 (набір ідентифікаторів, за якими відбувається визначення - який браузер, яка операційна система і тд, для коректного відображення сторінки)
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8 (запит обмежений переліченими ідентифікаторами)
+Referer: http://www.alexa.com/siteinfo/ok.ru (звідки був здійснений перехід на сторінку)
+Accept-Encoding: gzip, deflate, sdch (перелік дозволених способів кодування)
+Accept-Language: en-US,en;q=0.8,uk;q=0.6,ru;q=0.4 (перелік підтримуваний мов)
+	*response
+HTTP/1.1 200 OK(код стану протоколу)
+Server: Apache-Coyote/1.1 (назва та версія сервера)
+Set-Cookie: landref=www.alexa.com; Domain=.ok.ru; Path=/ (встановити куки у відповідь на запит браузера)
+Content-Security-Policy: default-src data: 'self' 'unsafe-inline' 'unsafe-eval' ok.ru *.ok.ru odnoklassniki.ru *.odnoklassniki.ru mycdn.me http://*.mycdn.me https://*.mycdn.me wss://ad.mail.ru *.mail.ru *.imgsmail.ru *.mradx.net *.gemius.pl *.weborama.fr *.adriver.ru *.serving-sys.com *.googleapis.com *.gstatic.com www.google.com https://api-maps.yandex.ru; script-src 'unsafe-inline' 'unsafe-eval' *.mail.ru https://*.mail.ru *.imgsmail.ru *.mradx.net ok.ru *.ok.ru odnoklassniki.ru *.odnoklassniki.ru mycdn.me http://*.mycdn.me https://*.mycdn.me mc.yandex.ru an.yandex.ru *.google-analytics.com api-maps.yandex.ru https://api-maps.yandex.ru https://clck.yandex.ru *.googleapis.com *.gstatic.com www.google.com www.youtube.com https://www.youtube.com *.ytimg.com https://*.ytimg.com *.doubleverify.com *.dvtps.com *.doubleclick.net *.googletagservices.com *.googlesyndication.com *.googleadservices.com; connect-src * wss:; font-src * data: blob:; frame-src *; img-src * data: blob:; media-src * data: blob:; object-src *; report-uri /csp/report;  (політика захисту контенту)
+Cache-Control: no-cache (керування кешуванням в браузері)
+Cache-Control: no-store (керування кешуванням в браузері)
+Pragma: no-cache (особливі опції виконання операції)
+Expires: Mon, 26 Jul 1997 05:00:00 GMT (повідомляє всім кешам, як довго контент трактується як свіжий)
+Rendered-Blocks: HtmlPage (тип рендинга сторінки)
+X-ScT: true (????????????)
+X-FRAME-OPTIONS: SAMEORIGIN
+Content-Type: text/html;charset=UTF-8 (тип контенту)
+Transfer-Encoding: chunked (повідомлення передається за допомогою певного кодування)
+Content-Encoding: gzip (тип кодування даних)
+Vary: Accept-Encoding (заголовок для пошукової оптимізації та зменшення часу завантаження сторінки)
+Date: Wed, 22 Jun 2016 19:43:48 GMT (дата генерації сайту)
+		5.http://football.ua/
+	*request
+GET / HTTP/1.1 (запит протоколу)
+Host: football.ua (ім'я домену)
+Connection: keep-alive (стан підключення)
+Cache-Control: max-age=0 (керування кешуванням в браузері)
+Upgrade-Insecure-Requests: 1 (можливість автоматичного переводу «http» в "https")
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36 (набір ідентифікаторів, за якими відбувається визначення - який браузер, яка операційна система і тд, для коректного відображення сторінки)
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8 (запит обмежений переліченими ідентифікаторами)
+Referer: http://www.alexa.com/siteinfo/football.ua (звідки був здійснений перехід на сторінку)
+Accept-Encoding: gzip, deflate, sdch (перелік дозволених способів кодування)
+Accept-Language: en-US,en;q=0.8,uk;q=0.6,ru;q=0.4 (перелік підтримуваний мов)
+	*response
+HTTP/1.1 200 OK (код стану протоколу)
+Cache-Control: private (керування кешуванням в браузері: час на який буде закешований результат)
+Transfer-Encoding: chunked (повідомлення передається за допомогою певного кодування)
+Content-Type: text/html; charset=utf-8 (тип контенту)
+Content-Encoding: gzip (тип кодування даних)
+Vary: Accept-Encoding (заголовок для пошукової оптимізації та зменшення часу завантаження сторінки)
+Server: Microsoft-IIS/8.0 (назва та версія сервера)
+X-AspNet-Version: 4.0.30319 (версія AspNet)
+X-Powered-By: ASP.NET (протокол передачі гіпертекста)
+Date: Wed, 22 Jun 2016 19:59:27 GMT (дата генерації сайту)
+		6.http://www.alibaba.com/
+	*request
+GET / HTTP/1.1 (запит протоколу)
+Host: www.alibaba.com (ім'я домену)
+Connection: keep-alive (стан підключення)
+Cache-Control: max-age=0 (керування кешуванням в браузері)
+Upgrade-Insecure-Requests: 1 (можливість автоматичного переводу «http» в "https")
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36 (набір ідентифікаторів, за якими відбувається визначення - який браузер, яка операційна система і тд, для коректного відображення сторінки)
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8 (запит обмежений переліченими ідентифікаторами)
+Referer: http://www.alexa.com/siteinfo/alibaba.com (звідки був здійснений перехід на сторінку)
+Accept-Encoding: gzip, deflate, sdch (перелік дозволених способів кодування)
+Accept-Language: en-US,en;q=0.8,uk;q=0.6,ru;q=0.4 (перелік підтримуваний мов)
+	*response
+HTTP/1.1 200 OK (код стану протоколу)
+Server: Tengine (назва та версія сервера)
+Date: Wed, 22 Jun 2016 20:07:31 GMT (дата генерації сайту)
+Content-Type: text/html;charset=UTF-8 (тип контенту)
+Transfer-Encoding: chunked (повідомлення передається за допомогою певного кодування)
+Connection: keep-alive (стан підключення)
+Vary: Accept-Encoding (заголовоу для пошукової оптимізації та зменшення часу завантаження сторінки)
+Set-Cookie: JSESSIONID=o-kA0B7+tWxNnedmbSTzDBKs; Path=/ (встановити куки у відповідь на запит браузера)
+P3P3PP: CP="CAO PSA OUR" (дозволяє сайтам інформувати браузер про передбачуване отриманні особистих даних користувача)
+Set-Cookie: ali_apache_track=""; Domain=.alibaba.com; Expires=Mon, 10-Jul-2084 23:21:38 GMT; Path=/(встановити куки у відповідь на запит браузера)
+Set-Cookie: ali_apache_tracktmp=""; Domain=.alibaba.com; Path=/(встановити куки у відповідь на запит браузера)
+Content-Language: en-US (поточна мова)
+Content-Security-Policy-Report-Content-Security-Policy-Report-OnlyOnly: style-src 'self' 'unsafe-inline' *.alibaba.com *.alisoft.com *.aliyun.com *.alipay.com *.aliexpress.com *.taobao.com *.taobao.net https://assets.alicdn.com https://login.alibaba.com *.alicdn.com *.tbcdn.com *.tbcdn.cn *.aliimg.com *.aliunicorn.com *.1688.com https://*.1688.com *.taobaocdn.com *.taobaocdn.cn *.mmstat.com *.alimama.com *.alimama.cn *.amap.com *.meitipu.com yui.yahooapis.com *.amap.com http://localhost.wwbizsrv.alibaba.com:4012 http://localhost.wwbizsrv.alibaba.com:4812 https://localhost.wwbizsrv.alibaba.com:4013 https://localhost.wwbizsrv.alibaba.com:4813 *.cnzz.com *.cnzz.net www.google.com apis.google.com translate.googleapis.com translate.google.com widgets.twimg.com platform.twitter.com twitter.com;img-src 'self' data: *.alibaba.com *.alisoft.com *.aliyun.com *.alipay.com *.aliexpress.com *.taobao.com *.taobao.net https://assets.alicdn.com https://login.alibaba.com *.alicdn.com *.tbcdn.com *.tbcdn.cn *.aliimg.com *.aliunicorn.com *.1688.com https://*.1688.com *.taobaocdn.com *.taobaocdn.cn *.mmstat.com *.alimama.com *.alimama.cn *.amap.com *.meitipu.com yui.yahooapis.com *.amap.com http://localhost.wwbizsrv.alibaba.com:4012 http://localhost.wwbizsrv.alibaba.com:4812 https://localhost.wwbizsrv.alibaba.com:4013 https://localhost.wwbizsrv.alibaba.com:4813 *.cnzz.com *.cnzz.net www.google.com apis.google.com translate.googleapis.com translate.google.com widgets.twimg.com platform.twitter.com twitter.com www.google-analytics.com www.googleadservices.com googleads.g.doubleclick.net stats.g.doubleclick.net;script-src 'self' 'unsafe-inline' 'unsafe-eval' *.alibaba.com *.alisoft.com *.aliyun.com *.alipay.com *.aliexpress.com *.taobao.com *.taobao.net https://assets.alicdn.com https://login.alibaba.com *.alicdn.com *.tbcdn.com *.tbcdn.cn *.aliimg.com *.aliunicorn.com *.1688.com https://*.1688.com *.taobaocdn.com *.taobaocdn.cn *.mmstat.com *.alimama.com *.alimama.cn *.amap.com *.meitipu.com yui.yahooapis.com *.amap.com http://localhost.wwbizsrv.alibaba.com:4012 http://localhost.wwbizsrv.alibaba.com:4812 https://localhost.wwbizsrv.alibaba.com:4013 https://localhost.wwbizsrv.alibaba.com:4813 *.cnzz.com *.cnzz.net www.google.com apis.google.com translate.googleapis.com translate.google.com widgets.twimg.com platform.twitter.com twitter.com www.google-analytics.com www.googleadservices.com googleads.g.doubleclick.net stats.g.doubleclick.net;;report-uri //pointman.alibaba.com/csp?app=default (механізм забезпечення безпеки)
+Strict-Transport-Security: max-age=31536000 (активує форсоване захищене з'єднання через протокол HTTPS)
+Content-Encoding: gzip (тип кодування даних)
+		7.http://pikabu.ru/
+	*request
+GET / HTTP/1.1 (запит протоколу)
+Host: pikabu.ru (ім'я домену)
+Connection: keep-alive (стан підключення)
+Cache-Control: max-age=0 (керування кешуванням в браузері: час на який буде закешований результат)
+Upgrade-Insecure-Requests: 1 (можливість автоматичного переводу «http» в "https")
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36 (набір ідентифікаторів, за якими відбувається визначення - який браузер, яка операційна система і тд, для коректного відображення сторінки)
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8  (запит обмежений переліченими ідентифікаторами)
+Referer: http://www.alexa.com/siteinfo/pikabu.ru (звідки був здійснений перехід на сторінку)
+Accept-Encoding: gzip, deflate, sdch (перелік дозволених способів кодування)
+Accept-Language: en-US,en;q=0.8,uk;q=0.6,ru;q=0.4 (перелік підтримуваний мов)
+	*response
+HTTP/1.1 200 OK (код стану протоколу)
+Server: nginx (назва та версія сервера)
+Date: Wed, 22 Jun 2016 20:20:11 GMT (дата генерації сайту)
+Content-Type: text/html; charset=windows-1251 (тип контенту)
+Transfer-Encoding: chunked (повідомлення передається за допомогою певного кодування)
+Connection: keep-alive (стан підключення)
+Keep-Alive: timeout=5 (залтшатися з'єднаним)
+Vary: Accept-Encoding (заголовоу для пошукової оптимізації та зменшення часу завантаження сторінки)
+X-Frame-Options: sameorigin (дозволяє повністю або частково обмежити завантаження ресурсу в iframe)
+Expires: Thu, 01 Jan 1970 00:00:01 GMT (повідомляє всім кешам, як довго контент трактується як свіжий)
+Cache-Control: no-cache (керування кешуванням в браузері: час на який буде закешований результат)
+Pragma: no-cache (особливі опції виконання операції)
+Content-Encoding: gzip (тип кодування даних)
+		8.http://worldoftanks.ru/
+	*request
+GET / HTTP/1.1 (запит протоколу)
+Host: worldoftanks.ru (ім'я домену)
+Connection: keep-alive (стан підключення)
+Cache-Control: max-age=0 (керування кешуванням в браузері: час на який буде закешований результат)
+Upgrade-Insecure-Requests: 1 (можливість автоматичного переводу «http» в "https")
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36(набір ідентифікаторів, за якими відбувається визначення - який браузер, яка операційна система і тд, для коректного відображення сторінки)
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8(запит обмежений переліченими ідентифікаторами)
+Referer: http://www.alexa.com/siteinfo/worldoftanks.ru (звідки був здійснений перехід на сторінку)
+Accept-Encoding: gzip, deflate, sdch (перелік дозволених способів кодування)
+Accept-Language: en-US,en;q=0.8,uk;q=0.6,ru;q=0.4(перелік підтримуваний мов)
+	*response
+HTTP/1.1 200 OK (код стану протоколу)
+Server: nginx (назва та версія сервера)
+Date: Wed, 22 Jun 2016 20:26:38 GMT (дата генерації сайту)
+Content-Type: text/html; charset=utf-8 (тип контенту)
+Transfer-Encoding: chunked (повідомлення передається за допомогою певного кодування)
+Connection: keep-alive (стан підключення)
+Vary: Accept-Encoding (заголовок для пошукової оптимізації та зменшення часу завантаження сторінки)
+Vary: Accept-Language, Cookie (заголовоу для пошукової оптимізації та зменшення часу завантаження сторінки)
+X-Frame-Options: SAMEORIGIN (дозволяє повністю або частково обмежити завантаження ресурсу в iframe)
+P3P: CP="ALL ADM DEV PSAi COM OUR OTRo STP IND ONL"(дозволяє сайтам інформувати браузер про передбачуване отриманні особистих даних користувача)
+Content-Language: ru (поточна мова)
+X-Cache-Hit: HIT (коли проксі сервер має локальну копію вебсайта або запитувальних сторінок)
+Content-Encoding: gzip (тип кодування даних)
+		9.http://www.lamoda.ua/
+	*request
+GET / HTTP/1.1 (запит протоколу)
+Host: www.lamoda.ua (ім'я домену)
+Connection: keep-alive (стан підключення)
+Cache-Control: max-age=0 (керування кешуванням в браузері: час на який буде закешований результат)
+Upgrade-Insecure-Requests: 1 (можливість автоматичного переводу «http» в "https")
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36 (набір ідентифікаторів, за якими відбувається визначення - який браузер, яка операційна система і тд, для коректного відображення сторінки)
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8 (запит обмежений переліченими ідентифікаторами)
+Referer: http://www.alexa.com/siteinfo/lamoda.ua (звідки був здійснений перехід на сторінку)
+Accept-Encoding: gzip, deflate, sdch (перелік дозволених способів кодування)
+Accept-Language: en-US,en;q=0.8,uk;q=0.6,ru;q=0.4 (перелік підтримуваний мов)
+	*response
+HTTP/1.1 200 OK (код стану протоколу)
+Server: QRATOR (назва та версія сервера)
+Date: Wed, 22 Jun 2016 20:33:02 GMT (дата генерації сайту)
+Content-Type: text/html; charset=utf-8 (тип контенту)
+Transfer-Encoding: chunked (повідомлення передається за допомогою певного кодування)
+Connection: keep-alive (стан підключення)
+Keep-Alive: timeout=15 (постійне http-з'єднання)
+Content-Encoding: gzip (тип кодування даних)
+		10.http://nnm-club.me/
+	*request
+GET / HTTP/1.1(запит протоколу)
+Host: nnm-club.me (ім'я домену)
+Connection: keep-alive (стан підключення)
+Cache-Control: max-age=0 (керування кешуванням в браузері: час на який буде закешований результат)
+Upgrade-Insecure-Requests: 1 (можливість автоматичного переводу «http» в "https")
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36  (набір ідентифікаторів, за якими відбувається визначення - який браузер, яка операційна система і тд, для коректного відображеня сторінки)
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8 (запит обмежений переліченими ідентифікаторами)
+Referer: http://www.alexa.com/siteinfo/nnm-club.me (звідки був здійснений перехід на сторінку)
+Accept-Encoding: gzip, deflate, sdch (перелік дозволених способів кодування)
+Accept-Language: en-US,en;q=0.8,uk;q=0.6,ru;q=0.4 (перелік підтримуваний мов)
+	*response
+HTTP/1.1 200 OK (код стану протоколу)
+Server: nginx (назва та версія сервера)
+Date: Wed, 22 Jun 2016 20:38:39 GMT (дата генерації сайту)
+Content-Type: text/html; charset=windows-1251 (тип контенту)
+Transfer-Encoding: chunked (повідомлення передається за допомогою певного кодування)
+Connection: keep-alive (стан підключення)
+Keep-Alive: timeout=10 (постійне http-з'єднання)
+Vary: Accept-Encoding(заголовок для пошукової оптимізації та зменшення часу завантаження сторінки)
+Vary: Accept-Encoding(заголовок для пошукової оптимізації та зменшення часу завантаження сторінки)
+Cache-Control: private, pre-check=0, post-check=0, max-age=0 (керування кешуванням в браузері: час на який буде закешований результат)
+Expires: 0(повідомляє всім кешам, як довго контент трактується як свіжий)
+Pragma: no-cache (особливі опції виконання операції)
+X-Frame-Options: SAMEORIGIN (дозволяє повністю або частково обмежити завантаження ресурсу в iframe)
+X-Backend-Status: MISS (статус бекенд)
+X-Frame-Options: SAMEORIGIN (дозволяє повністю або частково обмежити завантаження ресурсу в iframe)
+Content-Encoding: gzip(тип кодування даних)
+X-Frontend-Status: HIT (статус фронтенд)
+				3.What is differenct between HTTP version 1.0 and 1.1?
+У HTTP 1.0 кожен запит створює нове з'єднання TCP, в той час як в HTTP 1.1 браузер створює одне з'єднання TCP і відправляє багато запитів через це.
+HTTP 1.1 має необхідний заголовок хоста у специфікації. 
+HTTP 1.0 офіційно не вимагає заголовок хоста, але це не завадить додати його тому, що багато додатків (проксі) очікують побачити заголовок хоста незалежно від версії протоколу.
+HTTP 1.1 також дозволяє мати постійні з'єднання, що дозволяє здійснювати більше одного запиту/відповіді на тому ж з'єднанні HTTP. 
+У HTTP 1.0 доводиться відкрати нове з'єднання для кожної пари запит/відповідь. І після кожної відповіді сеанс буде закрито. Це призвело до великих проблем з ефективностю та повільного старту TCP.
+НTTP / 1.1 вводить метод OPTIONS. Клієнт HTTP може використовувати цей метод для визначення здатності сервера HTTP. Хоча це не дуже популярно сьогодні, велика частина цієї інформації передається по відповіді сервера.
+кешування:
+HTTP 1.0 була підтримка кешування через заголовок: If-Modified-Since. 
+HTTP 1.1 розширює підтримку кешування використовуючи те, що називається "мітка об'єкта". Якщо 2 ресурси однакові, то вони будуть мати ті ж теги сутностей. 
+HTTP 1.1 також додає If-Unmodified-С, If-Match, If-None-Match умовних заголовків. 
+Є також подальші доповнення, які стосуються кешування Cache Control заголовка.
+Існує новий код повернення в HTTP / 1.1 100 Continue. Це повинно застережити клієнта від відправки великого запиту, коли цей клієнт не впевнений що, сервер може обробити запит, або уповноважений опрацювати запит. У цьому випадку клієнт відправляє тільки заголовки і сервер буде повідомляти клієнта.
+HTTP 1.1 в цілому дає більше свободу дій( модернізує обмеження HTTP 1.0)
+HTTP 1.0 розпізнає 16-значні коди.
+HTTP 1.1 розпізнавати 24-значні коди.
+HTTP 1.1 є безпечним, так як він використовує контрольне ім'я користувача, пароль і одним часове значення.
+				4. Using "telnet" program
+GET
+http://prntscr.com/bjs44b
+http://prntscr.com/bjs4b4
+HEAD
+http://prntscr.com/bjs4fg
+http://prntscr.com/bjs4kd
+				5.Use actions on "Network" tab
+Під час виконання доманньої роботи, у вкладці "network" використовував твкі функції як, "сортування, фільтр, пошук". При використанні функції "сортування", можна відсортувати результати за одним із з значень колонки: статусом, типом, розміром, та іншими параметрами шляхом натискання на назву колонки. 
+При використанні функції "пошук", можна значно спростити собі життя. При вводі тексту в поле, можна з великого нагромадження інформації швидко знайти потрібний фрагмент коду. 
+Функція "фільтр" дозволяє фільтрувати отриману інформацію шляхом відображеня лише певних категорій. Також існують ключові слова, які фільтрують дані за типом домену, розміром файла, наявністю відповіді від сервера та іншими параметрами.
+				6.Using the https://www.hurl.it/
+*request
+GET https://google.com/
+301 Moved Permanently  220 bytes       33 ms 
+Accept: */* 
+Accept-Encoding: gzip, deflate 
+User-Agent: runscope/0.1 
+*response
+Alt-Svc: quic=":443"; ma=2592000; v="34,33,32,31,30,29,28,27,26,25" (повідомляє клієнту про наявність альтернативного сервісу, додатковий маршрут до такого ж контенту використовуючи інший сервіс, хост чи номер порта)
+Alternate-Protocol: 443:quic  (сервер об'являє клієнту про підтримку протокола QUIC)
+Cache-Control: public, max-age=2592000 (керування кешуванням в браузері: час на який буде закешований результат)
+Content-Length: 220 (довжина контенту)
+Content-Type: text/html; charset=UTF-8 (тип контенту)
+Date: Thu, 23 Jun 2016 04:44:44 GMT (дата генерації сайту)
+Expires: Sat, 23 Jul 2016 04:44:44 GMT (повідомляє всім кешам, як довго контент трактується як свіжий)
+Location: https://www.google.com/ (сервер негайно переходить за вказаною URL, не чекаючи, поки тіло документа завантажиться)
+Server: gws (назва та версія сервера)
+X-Frame-Options: SAMEORIGIN (дозволяє повністю або частково обмежити завантаження ресурсу в iframe)
+X-Xss-Protection: 1; mode=block (автоматичне визначення типу вмісту)
+				7.Using the https://www.hurl.it/
+*request
+ 301 Moved Permanently       0 bytes       35 ms
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: runscope/0.1
+*response
+Alt-Svc: quic=":443"; ma=2592000; v="34,33,32,31,30,29,28,27,26,25"
+Alternate-Protocol: 443:quic
+Cache-Control: public, max-age=2592000
+Content-Length: 220
+Content-Type: text/html; charset=UTF-8
+Date: Thu, 23 Jun 2016 05:05:51 GMT
+Expires: Sat, 23 Jul 2016 05:05:51 GMT
+Location: https://www.google.com/
+Server: gws
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+Різниця відносно GET в швидкості генерації відповіді, розмірі. Також не відображається тіло заголовка (BODY).
+				8.Find and show 10 resources, where POST method is used
+		1. http://www.meteoprog.ua/ru/weather/Lviv/
+*request
+POST /webvisor/2118835?rn=910094452&page-url=http%3A%2F%2Fwww.meteoprog.ua%2Fru%2Fweather%2FLviv%2F&wmode=0&wv-type=0&wv-hit=341571485&wv-part=9&wv-check=51274&browser-info=z%3A180%3Ai%3A20160623023649%3Arqnl%3A2%3Ast%3A1466682559%3Au%3A1466638609992920169 HTTP/1.1
+Host: mc.yandex.ru
+Connection: keep-alive
+Content-Length: 16
+Origin: http://www.meteoprog.ua
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Referer: http://www.meteoprog.ua/ru/weather/Lviv/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.8,uk;q=0.6,ru;q=0.4
+*response
+HTTP/1.1 200 OK
+Server: nginx/1.8.0
+Date: Thu, 23 Jun 2016 11:49:21 GMT
+Content-Type: image/gif
+Content-Length: 43
+Connection: keep-alive
+P3P: CP="NOI DEVa TAIa OUR BUS UNI STA"
+Last-Modified: Thu, 23 Jun 2016 11:49:21 GMT
+Expires: Thu, 23 Jun 2016 11:49:21 GMT
+Cache-Control: private, no-cache, no-store, must-revalidate, max-age=0
+Pragma: no-cache
+Access-Control-Allow-Origin: http://www.meteoprog.ua
+Access-Control-Allow-Credentials: true
+Strict-Transport-Security: max-age=31536000
+		2.http://chervonograd.lanet.ua/
+*request
+POST /webvisor/25660975?rn=691706973&page-url=http%3A%2F%2Fchervonograd.lanet.ua%2Fuk%2F&wmode=0&wv-type=0&wv-hit=536205441&wv-part=4&wv-check=54782&browser-info=z%3A180%3Ai%3A20160623071819%3Arqnl%3A2%3Ast%3A1466682747%3Au%3A1466639819887708293 HTTP/1.1
+Host: mc.yandex.ru
+Connection: keep-alive
+Content-Length: 20
+Origin: http://chervonograd.lanet.ua
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Referer: http://chervonograd.lanet.ua/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.8,uk;q=0.6,ru;q=0.4
+*response
+HTTP/1.1 200 OK
+Server: nginx/1.8.1
+Date: Thu, 23 Jun 2016 11:52:29 GMT
+Content-Type: image/gif
+Content-Length: 43
+Connection: keep-alive
+P3P: CP="NOI DEVa TAIa OUR BUS UNI STA"
+Last-Modified: Thu, 23 Jun 2016 11:52:29 GMT
+Expires: Thu, 23 Jun 2016 11:52:29 GMT
+Cache-Control: private, no-cache, no-store, must-revalidate, max-age=0
+Pragma: no-cache
+Access-Control-Allow-Origin: http://chervonograd.lanet.ua
+Access-Control-Allow-Credentials: true
+Strict-Transport-Security: max-age=31536000
+		3. http://www.rada.gov.ua/
+*request
+POST /selpreview/20160623 HTTP/1.1
+Host: www.rada.gov.ua
+Connection: keep-alive
+Content-Length: 14
+Cache-Control: max-age=0
+Accept: */*
+Origin: http://www.rada.gov.ua
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Referer: http://www.rada.gov.ua/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.8,uk;q=0.6,ru;q=0.4
+*response
+HTTP/1.1 200 OK
+Server: nginx
+Date: Thu, 23 Jun 2016 11:57:22 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Powered-By: PHP/5.3.13
+Content-Encoding: gzip
+		4.http://dynamo.kiev.ua/
+*request
+POST /webvisor/11899738?rn=81551244&page-url=http%3A%2F%2Fdynamo.kiev.ua%2F&wmode=0&wv-type=0&wv-hit=561590831&wv-part=3&wv-check=21157&browser-info=z%3A180%3Ai%3A20160623150019%3Arqnl%3A2%3Ast%3A1466683224%3Au%3A1466683220957197084 HTTP/1.1
+Host: mc.yandex.ru
+Connection: keep-alive
+Content-Length: 12
+Cache-Control: max-age=0
+Origin: http://dynamo.kiev.ua
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Referer: http://dynamo.kiev.ua/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.8,uk;q=0.6,ru;q=0.4
+*response
+HTTP/1.1 200 OK
+Server: nginx/1.8.1
+Date: Thu, 23 Jun 2016 12:00:26 GMT
+Content-Type: image/gif
+Content-Length: 43
+Connection: keep-alive
+P3P: CP="NOI DEVa TAIa OUR BUS UNI STA"
+Last-Modified: Thu, 23 Jun 2016 12:00:26 GMT
+Expires: Thu, 23 Jun 2016 12:00:26 GMT
+Cache-Control: private, no-cache, no-store, must-revalidate, max-age=0
+Pragma: no-cache
+Access-Control-Allow-Origin: http://dynamo.kiev.ua
+Access-Control-Allow-Credentials: true
+Strict-Transport-Security: max-age=31536000
+		5.http://www.mts.ua/
+*request
+POST /?r=slideStatistic/addViews HTTP/1.1
+Host: www.mts.ua
+Connection: keep-alive
+Content-Length: 139
+Cache-Control: max-age=0
+Accept: text/plain, */*; q=0.01
+Origin: http://www.mts.ua
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Referer: http://www.mts.ua/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.8,uk;q=0.6,ru;q=0.4
+*response
+HTTP/1.1 200 OK
+Server: nginx
+Date: Thu, 23 Jun 2016 12:02:43 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/5.5.26
+Set-Cookie: SliderPageStatistic_view=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/
+		6.http://www.mts.ua/
+*request
+POST /webvisor/14075305?rn=882405250&page-url=http%3A%2F%2Fwww.lifecell.com.ua%2Fuk%2F&wmode=0&wv-type=0&wv-hit=633698730&wv-part=2&wv-check=3341&browser-info=z%3A180%3Ai%3A20160623150607%3Arqnl%3A2%3Ast%3A1466683571%3Au%3A1466683567923820681 HTTP/1.1
+Host: mc.yandex.ru
+Connection: keep-alive
+Content-Length: 12
+Cache-Control: max-age=0
+Origin: http://www.lifecell.com.ua
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Referer: http://www.lifecell.com.ua/uk/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.8,uk;q=0.6,ru;q=0.4
+*response
+HTTP/1.1 200 OK
+Server: nginx/1.8.1
+Date: Thu, 23 Jun 2016 12:06:13 GMT
+Content-Type: image/gif
+Content-Length: 43
+Connection: keep-alive
+P3P: CP="NOI DEVa TAIa OUR BUS UNI STA"
+Last-Modified: Thu, 23 Jun 2016 12:06:13 GMT
+Expires: Thu, 23 Jun 2016 12:06:13 GMT
+Cache-Control: private, no-cache, no-store, must-revalidate, max-age=0
+Pragma: no-cache
+Access-Control-Allow-Origin: http://www.lifecell.com.ua
+Access-Control-Allow-Credentials: true
+Strict-Transport-Security: max-age=31536000
+		6.http://www.parimatch.com/
+*request
+POST /webvisor/10193245?rn=691415909&page-url=http%3A%2F%2Fwww.parimatch.com%2F&wmode=0&wv-type=0&wv-hit=680811221&wv-part=2&wv-check=3341&browser-info=z%3A180%3Ai%3A20160623150736%3Arqnl%3A2%3Ast%3A1466683660%3Au%3A1466683657231124129 HTTP/1.1
+Host: mc.yandex.ru
+Connection: keep-alive
+Content-Length: 12
+Cache-Control: max-age=0
+Origin: http://www.parimatch.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Referer: http://www.parimatch.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.8,uk;q=0.6,ru;q=0.4
+*response
+HTTP/1.1 200 OK
+Server: nginx/1.8.1
+Date: Thu, 23 Jun 2016 12:07:42 GMT
+Content-Type: image/gif
+Content-Length: 43
+Connection: keep-alive
+P3P: CP="NOI DEVa TAIa OUR BUS UNI STA"
+Last-Modified: Thu, 23 Jun 2016 12:07:42 GMT
+Expires: Thu, 23 Jun 2016 12:07:42 GMT
+Cache-Control: private, no-cache, no-store, must-revalidate, max-age=0
+Pragma: no-cache
+Access-Control-Allow-Origin: http://www.parimatch.com
+Access-Control-Allow-Credentials: true
+Strict-Transport-Security: max-age=31536000
+		7.http://www.oschadbank.ua/ua/
+*request
+POST /webvisor/35203605?rn=1019272993&page-url=http%3A%2F%2Fwww.oschadbank.ua%2Fua%2F&wmode=0&wv-type=0&wv-hit=154733846&wv-part=3&wv-check=3341&browser-info=z%3A180%3Ai%3A20160623150922%3Arqnl%3A2%3Ast%3A1466683769%3Au%3A1466683763590818924 HTTP/1.1
+Host: mc.yandex.ru
+Connection: keep-alive
+Content-Length: 12
+Cache-Control: max-age=0
+Origin: http://www.oschadbank.ua
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Referer: http://www.oschadbank.ua/ua/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.8,uk;q=0.6,ru;q=0.4
+Cookie: yandexuid=1697516251466610231; yabs-sid=1246792581466610231; sync_ok_ua=ua; sync_ok_by=by
+*response
+HTTP/1.1 200 OK
+Server: nginx/1.8.0
+Date: Thu, 23 Jun 2016 12:09:30 GMT
+Content-Type: image/gif
+Content-Length: 43
+Connection: keep-alive
+P3P: CP="NOI DEVa TAIa OUR BUS UNI STA"
+Last-Modified: Thu, 23 Jun 2016 12:09:30 GMT
+Expires: Thu, 23 Jun 2016 12:09:30 GMT
+Cache-Control: private, no-cache, no-store, must-revalidate, max-age=0
+Pragma: no-cache
+Access-Control-Allow-Origin: http://www.oschadbank.ua
+Access-Control-Allow-Credentials: true
+Strict-Transport-Security: max-age=31536000
+		8.http://www.kyivstar.ua/kr-620/mm/
+*request
+POST /webvisor/25715813?rn=1052106159&page-url=http%3A%2F%2Fwww.kyivstar.ua%2Fkr-620%2Fmm%2F&wmode=0&wv-type=0&wv-hit=532247632&wv-part=2&wv-check=3341&browser-info=z%3A180%3Ai%3A20160623151048%3Arqnl%3A2%3Ast%3A1466683853%3Au%3A1466683631390655997 HTTP/1.1
+Host: mc.yandex.ru
+Connection: keep-alive
+Content-Length: 12
+Cache-Control: max-age=0
+Origin: http://www.kyivstar.ua
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Referer: http://www.kyivstar.ua/kr-620/mm/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.8,uk;q=0.6,ru;q=0.4
+Cookie: yandexuid=1697516251466610231; yabs-sid=1246792581466610231; sync_ok_ua=ua; sync_ok_by=by
+*response
+HTTP/1.1 200 OK
+Server: nginx/1.8.0
+Date: Thu, 23 Jun 2016 12:10:55 GMT
+Content-Type: image/gif
+Content-Length: 43
+Connection: keep-alive
+P3P: CP="NOI DEVa TAIa OUR BUS UNI STA"
+Last-Modified: Thu, 23 Jun 2016 12:10:55 GMT
+Expires: Thu, 23 Jun 2016 12:10:55 GMT
+Cache-Control: private, no-cache, no-store, must-revalidate, max-age=0
+Pragma: no-cache
+Access-Control-Allow-Origin: http://www.kyivstar.ua
+Access-Control-Allow-Credentials: true
+Strict-Transport-Security: max-age=31536000
+		9.http://www.intertelecom.ua/
+*request
+POST /webvisor/10257718?rn=395082473&page-url=http%3A%2F%2Fwww.intertelecom.ua%2F&wmode=0&wv-type=0&wv-hit=558476165&wv-part=2&wv-check=3341&browser-info=z%3A180%3Ai%3A20160623151342%3Arqnl%3A2%3Ast%3A1466684025%3Au%3A1466683964478683670 HTTP/1.1
+Host: mc.yandex.ru
+Connection: keep-alive
+Content-Length: 12
+Cache-Control: max-age=0
+Origin: http://www.intertelecom.ua
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Referer: http://www.intertelecom.ua/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.8,uk;q=0.6,ru;q=0.4
+Cookie: yandexuid=1697516251466610231; yabs-sid=1246792581466610231; sync_ok_ua=ua; sync_ok_by=by
+*response
+HTTP/1.1 200 OK
+Server: nginx/1.8.1
+Date: Thu, 23 Jun 2016 12:13:47 GMT
+Content-Type: image/gif
+Content-Length: 43
+Connection: keep-alive
+P3P: CP="NOI DEVa TAIa OUR BUS UNI STA"
+Last-Modified: Thu, 23 Jun 2016 12:13:47 GMT
+Expires: Thu, 23 Jun 2016 12:13:47 GMT
+Cache-Control: private, no-cache, no-store, must-revalidate, max-age=0
+Pragma: no-cache
+Access-Control-Allow-Origin: http://www.intertelecom.ua
+Access-Control-Allow-Credentials: true
+Strict-Transport-Security: max-age=31536000
+		10.http://allo.ua/
+*request
+POST /ajax/block/getSession HTTP/1.1
+Host: allo.ua
+Connection: keep-alive
+Content-Length: 0
+Cache-Control: max-age=0
+Origin: http://allo.ua
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+Content-type: application/x-www-form-urlencoded; charset=UTF-8
+Accept: text/javascript, text/html, application/xml, text/xml, */*
+X-Prototype-Version: 1.6.0.3
+X-Requested-With: XMLHttpRequest
+Referer: http://allo.ua/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.8,uk;q=0.6,ru;q=0.4
+*response
+HTTP/1.1 200 OK
+Server: nginx
+Date: Thu, 23 Jun 2016 12:15:19 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+X-Powered-By: PHP/5.4.45
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Set-Cookie: frontend=0752d9551cf84cf88c1263f2194e4332; expires=Sat, 23-Jul-2016 12:15:19 GMT; path=/; domain=.allo.ua; httponly
+Content-Encoding: gzip
+
+					9.Using the Postman extension
+1.
+http://prntscr.com/bjzr9a
+http://prntscr.com/bjzrs4
+http://prntscr.com/bjzs8h
+http://prntscr.com/bjzsdr
+http://prntscr.com/bjzsrw

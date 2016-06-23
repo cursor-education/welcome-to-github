@@ -1,0 +1,72 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+    background-color: darkgrey;
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+    
+}
+.hidden {
+    display: none;
+}
+.portfolio ul,.portfolio li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.portfolio li{
+       display: inline-block;
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+    }
+.portfolio img{
+    max-width: 100%;
+    display: block;
+}
+.descr{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    padding-top: 80px;
+    text-align: center;
+    opacity: 0;
+    transform: scale(0) rotate(90deg);
+    transition: all.8s;
+    -webkit-transition: all .8s;
+        -o-transition: all .8s;
+}
+.portfolio li:hover .descr{
+    opacity: 1;
+    top: 0;
+    transform: scale(1) rotate(0deg);
+}

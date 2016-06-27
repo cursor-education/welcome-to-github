@@ -15,6 +15,7 @@ Ostap Holynskyi
 Yaroslav Zin
 Oleg Sabadash
 Yuriy Grebinyuk
+Oleg Stefaniuk
 <<<<<<< HEAD
 =======
 Anna Havryliuk

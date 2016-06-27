@@ -15,8 +15,6 @@ Ostap Holynskyi
 Yaroslav Zin
 Oleg Sabadash
 Yuriy Grebinyuk
-<<<<<<< HEAD
-=======
 Yura Romaniv
->>>>>>> 3f4f64ba2e7a2183a87f8e38a410fdbdc198f146
+
 

@@ -15,4 +15,7 @@ Ostap Holynskyi
 Yaroslav Zin
 Oleg Sabadash
 Yuriy Grebinyuk
-Stefaniuk Oleg
+<<<<<<< HEAD
+=======
+Anna Havryliuk
+>>>>>>> 12f8488aa93d7b728b25087fc6a6e3657d45bfb4

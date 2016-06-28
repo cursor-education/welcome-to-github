@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Maps : Sample 4 : WebCoding Solutions</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <style>
+      html, body, #map-canvas {
+        height: 100%;
+        margin: 0px;
+        padding: 0px
+      }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+	<script type="text/javascript" src="https://googledrive.com/host/0BzAso-3NQrbEQ0lkeWFHeVNfbGc/markerclusterer.js"></script>
+	
+    <script>
+		var map;
+		var geocoder;
+
+		var markers = []; 
+		var markerClusterer = null;
+		function initialize() {
+			var mapOptions = {
+				zoom: 8,
+				center: new google.maps.LatLng(49, 24)
+			};
+			map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+			var marker = new google.maps.Marker({    
+				position: new google.maps.LatLng('49', '24')
+			});
+			markers.push(marker);
+			
+			var marker = new google.maps.Marker({    
+				position: new google.maps.LatLng('49', '24.1')
+			});
+			markers.push(marker);
+			
+			var marker = new google.maps.Marker({    
+				position: new google.maps.LatLng('49', '24.2')
+			});
+			markers.push(marker);
+			
+			var marker = new google.maps.Marker({    
+				position: new google.maps.LatLng('49.1', '24')
+			});
+			markers.push(marker);
+			
+			var marker = new google.maps.Marker({    
+				position: new google.maps.LatLng('49.2', '24')
+			});
+			markers.push(marker);
+			
+			markerClusterer = new MarkerClusterer(map, markers, 
+			{ 
+				maxZoom: 13,
+				gridSize: 50,
+				styles: null
+			});
+		}
+		google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+  </head>
+  <body>
+    <div id="map-canvas"></div>
+  </body>
+</html>

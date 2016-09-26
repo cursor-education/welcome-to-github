@@ -25,3 +25,5 @@ Yaroslav Sheshenov
 Stas Lakhovytch
 Artem Zatula
 Oleksiy Gajvoronsky
+Denis Golynny
+

@@ -22,6 +22,7 @@ Oleg Stefaniuk
 Vitaliy Palyushok
 Oleh Yarmolyuk
 Yaroslav Sheshenov
+Tsokh Serhiy
 Stas Lakhovytch
 Artem Zatula
 Oleksiy Gajvoronsky

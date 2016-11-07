@@ -32,5 +32,6 @@ Yuriy Hurnyak
 Taras Andrushko
 Leon Panychevskyy
 Andriy Arterchuk
+Vitalii Nagorniak
 Matviy Zhelezniak
 Taras Pereimybida

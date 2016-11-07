@@ -27,7 +27,10 @@ Artem Zatula
 Oleksiy Gajvoronsky
 Denis Golynny
 Lida Skibitska
+Bohdan Ptyts
+Yuriy Hurnyak
+Taras Andrushko
+Leon Panychevskyy
+Andriy Arterchuk
+Matviy Zhelezniak
 Chaschina Anna
-
-
-

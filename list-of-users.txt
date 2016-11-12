@@ -14,7 +14,6 @@ Oleksandr Kuruts
 Ostap Holynskyi
 Yaroslav Zin
 Oleg Sabadash
-Yuriy Grebinyuk
 Anna Havryliuk
 Yura Romaniv
 Vitalii Bodnar
@@ -34,3 +33,5 @@ Leon Panychevskyy
 Andriy Arterchuk
 Matviy Zhelezniak
 Taras Pereimybida
+Andriy Dziuba
+Yuriy Grebinyuk

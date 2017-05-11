@@ -24,7 +24,8 @@ Yaroslav Sheshenov
 Tsokh Serhiy
 Stas Lakhovytch
 Artem Zatula
-Oleksiy Gajvoronsky
+Oleksiy Haivoronsky (Ruby)
+Oleksiy Haivoronsky (Front-end)
 Denis Golynny
 Lida Skibitska
 Bohdan Ptyts
@@ -41,3 +42,22 @@ Alina Chergava
 Vitaly Petrusenko
 Artem Novorai
 Vasylyna Kurylo
+Volodymyr Oslikovskyi
+Myshchyshyn Oleksandr
+Iryna Leskiv
+Roman Sulyma
+Olena Ivanova
+Orest Kupchak
+Marko Vaskiv
+Petro Baykovskyy
+Bohdan Nazar
+Oleh Sten
+Oleh Kupiak
+Volodymyr Danyliak
+Vasyl Mykytiak
+Volodymyr Opalinskyy
+Denys Holovko
+Nazar Bulych
+Ruslan Kulynych
+Mariia Petryshyn
+Nadja Zhydkova

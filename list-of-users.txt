@@ -42,6 +42,8 @@ Vitaly Petrusenko
 Artem Novorai
 Volodymyr Oslikovskyi
 Olena Ivanova
+Orest Kupchak
+Marko Vaskiv
 Petro Baykovskyy
 Bohdan Nazar
 Oleh Sten

@@ -24,7 +24,8 @@ Yaroslav Sheshenov
 Tsokh Serhiy
 Stas Lakhovytch
 Artem Zatula
-Oleksiy Gajvoronsky
+Oleksiy Haivoronsky (Ruby)
+Oleksiy Haivoronsky (Front-end)
 Denis Golynny
 Lida Skibitska
 Bohdan Ptyts

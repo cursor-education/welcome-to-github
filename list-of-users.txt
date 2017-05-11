@@ -42,6 +42,7 @@ Vitaly Petrusenko
 Artem Novorai
 Volodymyr Oslikovskyi
 Oleh Kupiak
+Volodymyr Danyliak
 Vasyl Mykytiak
 Volodymyr Opalinskyy
 Denys Holovko

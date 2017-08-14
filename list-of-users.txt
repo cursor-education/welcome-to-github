@@ -65,3 +65,6 @@ Nadja Zhydkova
 Rostyslav Moroziuk
 Vitalik Antosyuk
 Leonid Krainov
+Vitalik Gnylytsya
+Yaroslav Hlukhovetsky
+Volodymyr Medvid

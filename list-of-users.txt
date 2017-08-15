@@ -1,4 +1,4 @@
-Roman Rodomansky
+ARoman Rodomansky
 Ivan Sakhman
 Bogdan Kishchak
 Roman Mrychko
@@ -67,3 +67,4 @@ Vitalik Antosyuk
 Vitalik Gnylytsya
 Yaroslav Hlukhovetsky
 Volodymyr Medvid
+Anastasiya Shyfers

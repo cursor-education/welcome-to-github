@@ -67,3 +67,4 @@ Vitalik Antosyuk
 Vitalik Gnylytsya
 Yaroslav Hlukhovetsky
 Volodymyr Medvid
+Roman Batiuk

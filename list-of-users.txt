@@ -64,6 +64,7 @@ Mariia Petryshyn
 Nadja Zhydkova
 Rostyslav Moroziuk
 Vitalik Antosyuk
+Leonid Krainov
 Vitalik Gnylytsya
 Yaroslav Hlukhovetsky
 Volodymyr Medvid
@@ -71,3 +72,4 @@ Vasyl Khoroshcho
 Dmytro Tsmots
 Olia Bentkovska
 Vasyl Khoroshcho
+Roman Batiuk

@@ -68,3 +68,6 @@ Vitalik Gnylytsya
 Yaroslav Hlukhovetsky
 Volodymyr Medvid
 Vasyl Khoroshcho
+Dmytro Tsmots
+Olia Bentkovska
+Vasyl Khoroshcho

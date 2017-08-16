@@ -69,3 +69,4 @@ Yaroslav Hlukhovetsky
 Volodymyr Medvid
 Dmytro Tsmots
 Olia Bentkovska
+Ihor Pylypyak

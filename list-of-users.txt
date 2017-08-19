@@ -68,8 +68,12 @@ Leonid Krainov
 Vitalik Gnylytsya
 Yaroslav Hlukhovetsky
 Volodymyr Medvid
+Roman Markhevka
+Vasyl Khoroshcho
 Dmytro Tsmots
 Olia Bentkovska
+Seweryn Michalewski
 Roman Batiuk
 Oleksandr Holubenko
+Bohdan Mirchuk
 Ihor Pylypyak

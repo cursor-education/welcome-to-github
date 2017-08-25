@@ -78,3 +78,4 @@ Oleksandr Holubenko
 Bohdan Mirchuk
 Yaryna Yavor
 Ihor Pylypyak
+Rostik Kondrat

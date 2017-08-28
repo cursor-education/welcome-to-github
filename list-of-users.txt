@@ -1,4 +1,4 @@
-ARoman Rodomansky
+Roman Rodomansky
 Ivan Sakhman
 Bogdan Kishchak
 Roman Mrychko
@@ -64,7 +64,20 @@ Mariia Petryshyn
 Nadja Zhydkova
 Rostyslav Moroziuk
 Vitalik Antosyuk
+Leonid Krainov
 Vitalik Gnylytsya
 Yaroslav Hlukhovetsky
 Volodymyr Medvid
+Roman Markhevka
+Vasyl Khoroshcho
+Dmytro Tsmots
+Olia Bentkovska
+Seweryn Michalewski
+Roman Batiuk
+Oleksandr Holubenko
+Bohdan Mirchuk
+Yaryna Yavor
+Ihor Pylypyak
+Rostik Kondrat
+Anton Kaminskyi
 Anastasiya Shyfers

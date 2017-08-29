@@ -78,6 +78,13 @@ Oleksandr Holubenko
 Bohdan Mirchuk
 Yaryna Yavor
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Ihor Pylypyak
+Rostik Kondrat
+Anton Kaminskyi
+Svitlana Shymko
+>>>>>>> 22df452f004605d390f0de95170fddb32497703b
 Uliana Halushchak
 =======
 Ihor Pylypyak

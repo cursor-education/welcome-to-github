@@ -77,4 +77,8 @@ Roman Batiuk
 Oleksandr Holubenko
 Bohdan Mirchuk
 Yaryna Yavor
+Ihor Pylypyak
+Rostik Kondrat
+Anton Kaminskyi
+Svitlana Shymko
 Uliana Halushchak

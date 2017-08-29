@@ -77,4 +77,11 @@ Roman Batiuk
 Oleksandr Holubenko
 Bohdan Mirchuk
 Yaryna Yavor
+<<<<<<< HEAD
 Uliana Halushchak
+=======
+Ihor Pylypyak
+Rostik Kondrat
+Anton Kaminskyi
+Svitlana Shymko
+>>>>>>> 7e3a8ca1a1fa83eed8d13eba56dda75e1ab010ae

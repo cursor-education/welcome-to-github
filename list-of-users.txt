@@ -79,11 +79,15 @@ Bohdan Mirchuk
 Yaryna Yavor
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 7e3a8ca1a1fa83eed8d13eba56dda75e1ab010ae
 Ihor Pylypyak
 Rostik Kondrat
 Anton Kaminskyi
 Svitlana Shymko
+<<<<<<< HEAD
 >>>>>>> 22df452f004605d390f0de95170fddb32497703b
 Uliana Halushchak
 =======
@@ -91,4 +95,6 @@ Ihor Pylypyak
 Rostik Kondrat
 Anton Kaminskyi
 Svitlana Shymko
+>>>>>>> 7e3a8ca1a1fa83eed8d13eba56dda75e1ab010ae
+=======
 >>>>>>> 7e3a8ca1a1fa83eed8d13eba56dda75e1ab010ae

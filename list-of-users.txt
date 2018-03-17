@@ -93,3 +93,4 @@ Liubomyr Zaiats
 Roman Martynets
 Mykola Shepida
 Nadiia Gopko
+Edit from cursor-education/welcome-to-github

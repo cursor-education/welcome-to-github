@@ -4,4 +4,6 @@
     <li>Red</li>
     <li>Green</li>
     <li>Blue</li>
+    <li>White</li>
+    <li>Pink</li>
 </ul>

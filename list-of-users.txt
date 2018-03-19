@@ -96,4 +96,5 @@ Mykola Shepida
 Artem Chepeliuk
 Oleksandr Kyriienko
 Olena Strypko
+Bogdan Lishchynskiy
 

@@ -7,4 +7,6 @@
     <li>White</li>
     <li>Pink</li>
     <li>Yellow</li>
+    <li>Purple</li>
+    <li>Brown</li>
 </ul>

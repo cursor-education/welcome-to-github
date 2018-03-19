@@ -95,4 +95,5 @@ Mykola Shepida
 Vasyl Korets
 Oleksandr Kyriienko
 Olena Strypko
+Bogdan Lishchynskiy
 

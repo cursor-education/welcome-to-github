@@ -1,0 +1,12 @@
+<h1>Colors</h1>
+
+<ul>
+    <li>Red</li>
+    <li>Green</li>
+    <li>Blue</li>
+    <li>White</li>
+    <li>Pink</li>
+    <li>Yellow</li>
+    <li>Purple</li>
+    <li>Brown</li>
+</ul>

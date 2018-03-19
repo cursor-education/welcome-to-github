@@ -94,4 +94,6 @@ Roman Martynets
 Mykola Shepida
 Oleksandr Kyriienko
 Olena Strypko
+Bogdan Lishchynskiy
 Taras Kovbasiuk
+

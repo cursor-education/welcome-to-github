@@ -28,6 +28,7 @@ Oleksiy Haivoronsky (Ruby)
 Oleksiy Haivoronsky (Front-end)
 Denis Golynny
 Lida Skibitska
+
 Bohdan Ptyts
 Yuriy Hurnyak
 Taras Andrushko
@@ -94,3 +95,4 @@ Roman Martynets
 Mykola Shepida
 Oleksandr Kyriienko
 Olena Strypko
+Olja Vozniak

@@ -33,6 +33,7 @@ Yuriy Hurnyak
 Taras Andrushko
 Leon Panychevskyy
 Andriy Arterchuk
+Nadiia Gopko
 Matviy Zhelezniak
 Taras Pereimybida
 Andriy Dziuba

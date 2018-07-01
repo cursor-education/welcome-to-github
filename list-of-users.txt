@@ -35,6 +35,7 @@ Leon Panychevskyy
 Andriy Arterchuk
 Matviy Zhelezniak
 Taras Pereimybida
+Artem Chepeliuk
 Andriy Dziuba
 Yuriy Grebinyuk
 Dmytro Tohan
@@ -92,6 +93,8 @@ Daria Talan
 Liubomyr Zaiats
 Roman Martynets
 Mykola Shepida
+Artem Chepeliuk
 Oleksandr Kyriienko
 Olena Strypko
 Bogdan Lishchynskiy
+

@@ -1,0 +1,5 @@
+val coffee = Coffee()
+
+while(true) {
+  drink(coffee);
+}

@@ -33,6 +33,7 @@ Yuriy Hurnyak
 Taras Andrushko
 Leon Panychevskyy
 Andriy Arterchuk
+Nadiia Gopko
 Matviy Zhelezniak
 Taras Pereimybida
 Andriy Dziuba
@@ -95,3 +96,4 @@ Mykola Shepida
 Oleksandr Kyriienko
 Olena Strypko
 Bogdan Lishchynskiy
+Nadiia Gopko

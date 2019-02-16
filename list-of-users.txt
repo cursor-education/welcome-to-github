@@ -1,4 +1,3 @@
-Alexandr Guzeev
 Roman Rodomansky
 Ivan Sakhman
 Bogdan Kishchak
@@ -96,3 +95,4 @@ Mykola Shepida
 Oleksandr Kyriienko
 Olena Strypko
 Bogdan Lishchynskiy
+Alexandr Guzeev

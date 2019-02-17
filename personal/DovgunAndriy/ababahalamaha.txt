@@ -1,0 +1,19 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>патріотична</title>
+ </head>
+ <body>
+  <h1>Віва ля Україна</h1>
+  <p>Як романтично пахне ковбаса<br>
+І помідори в банцi зашарiлись.<br>
+А в пляшечцi, так тихо як роса,<br>
+Горiлочка домашня причаїлась.<br>
+I сало нiжно зваблює тiльцем,<br>
+I хлiб наставив загорiлу спину...<br>
+Якщо ж ти млiєш, слухаючи це,<br>
+Чому ж ти, блять, не любиш Украiну?!</p>
+  <!-- Комментарий -->
+  </body>
+</html>

@@ -1,0 +1,72 @@
+[33mcommit 7c85375994e44698892e5b4f2bb077d43214330e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Yuriy Karatnyk <karatnyk@gmail.com>
+Date:   Sat Feb 16 00:51:23 2019 +0200
+
+    added 1 line to index.html from master branch
+
+[33mcommit 53a73995fd06c985405f0b802432f7d36bac7ca6[m[33m ([m[1;32mrebaseBranch[m[33m)[m
+Author: Yuriy Karatnyk <karatnyk@gmail.com>
+Date:   Sat Feb 16 00:49:54 2019 +0200
+
+    added more lines to index.html for new commit to show up in history
+
+[33mcommit 437b5e1c1d6d2717a70e34097592fabf00ed4c76[m
+Author: Yuriy Karatnyk <karatnyk@gmail.com>
+Date:   Sat Feb 16 00:48:46 2019 +0200
+
+    added some line to index.html
+
+[33mcommit c2e9b5e0665d68e59e46fd7c23a95327673f5ec7[m[33m ([m[1;31morigin/master[m[33m)[m
+Merge: 0ee2363 874027c
+Author: Yuriy Karatnyk <karatnyk@gmail.com>
+Date:   Sat Feb 16 00:45:46 2019 +0200
+
+    Merge branch 'development'
+
+[33mcommit 874027c26cc2f3f5f454311848a4c0a3b0f3b762[m[33m ([m[1;31morigin/development[m[33m, [m[1;32mdevelopment[m[33m)[m
+Merge: 0b89cca cd6c068
+Author: Yuriy Karatnyk <karatnyk@gmail.com>
+Date:   Sat Feb 16 00:42:53 2019 +0200
+
+    commit after resolving post-pull conflict
+
+[33mcommit 0b89ccab4d8d134c41652833e66c74661307dd28[m
+Merge: 943dac3 23249ba
+Author: Yuriy Karatnyk <karatnyk@gmail.com>
+Date:   Sat Feb 16 00:37:11 2019 +0200
+
+    merged changes within the file itself before merging branches
+
+[33mcommit 0ee2363041db1bf1a69153d15dddade4cfcd543c[m
+Merge: 23249ba cd6c068
+Author: krapka <karatnyk@gmail.com>
+Date:   Fri Feb 15 23:59:47 2019 +0200
+
+    Merge pull request #1 from karatnyk/development
+    
+    Adding file with changes
+
+[33mcommit cd6c06877a031a583a523a8ee619db1ae0ba4ed2[m
+Merge: 943dac3 23249ba
+Author: krapka <karatnyk@gmail.com>
+Date:   Fri Feb 15 23:59:40 2019 +0200
+
+    Merge branch 'master' into development
+
+[33mcommit 943dac310d9cbe26f649b8eb7e4dfd4d74ccabf0[m
+Author: Yuriy Karatnyk <karatnyk@gmail.com>
+Date:   Fri Feb 15 23:32:54 2019 +0200
+
+    Adding file with changes
+
+[33mcommit 23249ba604cb022b4382e383ad8f6f7be19b6ba9[m
+Author: Yuriy Karatnyk <karatnyk@gmail.com>
+Date:   Fri Feb 15 23:30:19 2019 +0200
+
+    adding file to master
+
+[33mcommit e145b0eea6b0c5c3b21de64234e2fab551d4713b[m
+Author: Yuriy Karatnyk <karatnyk@gmail.com>
+Date:   Fri Feb 15 23:26:23 2019 +0200
+
+    adding file with changes

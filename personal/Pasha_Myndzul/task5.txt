@@ -1,0 +1,10 @@
+ Volume in drive F is Data
+ Volume Serial Number is 4EC0-0473
+
+ Directory of F:\Навчання Cursor!!!!\homework#1(git_github)\welcome-to-github\personal\Pasha_Myndzul
+
+08.06.2019  08:38    <DIR>          .
+08.06.2019  08:38    <DIR>          ..
+08.06.2019  08:38                 0 task5.txt
+               1 File(s)              0 bytes
+               2 Dir(s)  203 306 184 704 bytes free
